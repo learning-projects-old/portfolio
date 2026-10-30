@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "portfolio",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:portfolio",
+      "type": "project",
+      "name": "portfolio"
+    },
+    {
+      "id": "project:portfolio/file:.github/workflows/codeql.yml",
+      "type": "file",
+      "path": ".github/workflows/codeql.yml"
+    },
+    {
+      "id": "project:portfolio/file:README.md",
+      "type": "file",
+      "path": "README.md",
+      "sha256": "4f197841af37d2db29f349a8ef0dfce9d73946de725b81e49e6f8d2af3ac121a",
+      "bytes": 21
+    },
+    {
+      "id": "project:portfolio/file:app.vue",
+      "type": "file",
+      "path": "app.vue",
+      "sha256": "2b4f118d967a613a3f0cec3c7d4f40c15cc1ea4f6dea97947f031eacae1d83b0",
+      "bytes": 544
+    },
+    {
+      "id": "project:portfolio/file:components/Info/CardProject.vue",
+      "type": "file",
+      "path": "components/Info/CardProject.vue",
+      "sha256": "4e8ec72304466263430f1f6c4d755f8185bfe0f2d1bc55b1b58a13295233e744",
+      "bytes": 542
+    },
+    {
+      "id": "project:portfolio/file:components/Info/ContactInfo.vue",
+      "type": "file",
+      "path": "components/Info/ContactInfo.vue",
+      "sha256": "7637056ef507763c01a6f7e7b4b75adc7d2ad07e10bef4b19333b08b214365ca",
+      "bytes": 1003
+    },
+    {
+      "id": "project:portfolio/file:components/Info/Education.vue",
+      "type": "file",
+      "path": "components/Info/Education.vue",
+      "sha256": "5fb3d38d11ff36e8857091e56239f9f76879a76f83d9ab19c77447a0bf2e4354",
+      "bytes": 464
+    },
+    {
+      "id": "project:portfolio/file:components/Info/WorkExperience.vue",
+      "type": "file",
+      "path": "components/Info/WorkExperience.vue",
+      "sha256": "0a3b714202ad455912c0102d9fca3488fb7f60930157432f54a4c3435d9cbb93",
+      "bytes": 704
+    },
+    {
+      "id": "project:portfolio/file:components/github/RepositoryCard.vue",
+      "type": "file",
+      "path": "components/github/RepositoryCard.vue",
+      "sha256": "94b7561673a0716511f6794299e95bc7427021a6c3322c7d42fa99c5ba2832ce",
+      "bytes": 2870
+    },
+    {
+      "id": "project:portfolio/file:components/github/RepositoryList.vue",
+      "type": "file",
+      "path": "components/github/RepositoryList.vue",
+      "sha256": "0b7ad07db484696b8d085e26f83ca712b37dc407e8f26853659fea0675ddd1dd",
+      "bytes": 1681
+    },
+    {
+      "id": "project:portfolio/file:components/github/api/github.js",
+      "type": "file",
+      "path": "components/github/api/github.js",
+      "sha256": "138b7a9ac2a93642138228d689861b2f91ac59aa1e9927d4531897a8a482fed3",
+      "bytes": 4242
+    },
+    {
+      "id": "project:portfolio/file:components/main/Home.vue",
+      "type": "file",
+      "path": "components/main/Home.vue",
+      "sha256": "70c1852c9d4095fb216ea533bd5f293a0c07a5830fe4c7204336cdaa8ce4fae3",
+      "bytes": 2022
+    },
+    {
+      "id": "project:portfolio/file:components/main/Navbar.vue",
+      "type": "file",
+      "path": "components/main/Navbar.vue",
+      "sha256": "22f74b03e19c42cb51292892e58774fff8abd7dbda93a30cd402b99c3be2eda8",
+      "bytes": 1319
+    },
+    {
+      "id": "project:portfolio/file:components/skill/SkillProgress.vue",
+      "type": "file",
+      "path": "components/skill/SkillProgress.vue",
+      "sha256": "31da6288494dcd8d548790d2a73278767704c8530698c70d2e6de0eddd2f059c",
+      "bytes": 3773
+    },
+    {
+      "id": "project:portfolio/file:components/skill/Skills.vue",
+      "type": "file",
+      "path": "components/skill/Skills.vue",
+      "sha256": "2e7a4b1265556fc2c7611423a961a585b7b6d75d2650286def4e2a595f06ada5",
+      "bytes": 529
+    },
+    {
+      "id": "project:portfolio/file:nuxt.config.ts",
+      "type": "file",
+      "path": "nuxt.config.ts",
+      "sha256": "71f4daa9cb9157cba3485e68b5e16ae2ff3cf919d34a41f14a523a157e8733f7",
+      "bytes": 701
+    },
+    {
+      "id": "project:portfolio/file:nuxt.md",
+      "type": "file",
+      "path": "nuxt.md"
+    },
+    {
+      "id": "project:portfolio/file:package.json",
+      "type": "file",
+      "path": "package.json",
+      "sha256": "46e09474c5b4068cd804279312d3be3651ecb926221d6f8bcc2498d260d23417",
+      "bytes": 866
+    },
+    {
+      "id": "project:portfolio/file:pages/index.vue",
+      "type": "file",
+      "path": "pages/index.vue",
+      "sha256": "71a9bc491fc474ecff9fa9f43834e4f1f86e5ae28da7e090d7e64865cc495d72",
+      "bytes": 1419
+    },
+    {
+      "id": "project:portfolio/file:plugins/bootstrap.client.ts",
+      "type": "file",
+      "path": "plugins/bootstrap.client.ts",
+      "sha256": "cb8912389b428b577fe93a162161b6c985c0c45f37e6288123c3ece08c8ff79a",
+      "bytes": 53
+    },
+    {
+      "id": "project:portfolio/file:plugins/yandex-metrika.client.js",
+      "type": "file",
+      "path": "plugins/yandex-metrika.client.js",
+      "sha256": "05f96eeb2d355418b85d46c3aee43b337eb147519abd0be9ffa5fd38d11cff58",
+      "bytes": 903
+    },
+    {
+      "id": "project:portfolio/file:postcss.config.js",
+      "type": "file",
+      "path": "postcss.config.js",
+      "sha256": "190c877db466995bf1482f4a16abd06e04a89ede3119341e2a86ff96e1737b27",
+      "bytes": 80
+    },
+    {
+      "id": "project:portfolio/file:store/posts.ts",
+      "type": "file",
+      "path": "store/posts.ts",
+      "sha256": "15dbade621a622813c4dcc7570fff7d131b9d719298d1a9349117562e812870a",
+      "bytes": 661
+    },
+    {
+      "id": "project:portfolio/file:structure.md",
+      "type": "file",
+      "path": "structure.md"
+    },
+    {
+      "id": "project:portfolio/file:types/comment.ts",
+      "type": "file",
+      "path": "types/comment.ts",
+      "sha256": "a08dd16251a573d4d5d89c43deb65bf387eef87ba5f85202da56869602a5a5cf",
+      "bytes": 105
+    },
+    {
+      "id": "project:portfolio/file:types/index.ts",
+      "type": "file",
+      "path": "types/index.ts",
+      "sha256": "0a64ac9f634863d95b67561cc1f75df54e219c1e0d4f97753c3a9bf70562ed36",
+      "bytes": 72
+    },
+    {
+      "id": "project:portfolio/file:types/post.ts",
+      "type": "file",
+      "path": "types/post.ts",
+      "sha256": "91460b118789834d300e4f889a086720d675c96aeb34c31fd1a46abd5a3bae1c",
+      "bytes": 102
+    },
+    {
+      "id": "package:npm:@jamescoyle/vue-icon",
+      "type": "package",
+      "name": "@jamescoyle/vue-icon",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@mdi/js",
+      "type": "package",
+      "name": "@mdi/js",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@popperjs/core",
+      "type": "package",
+      "name": "@popperjs/core",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:axios",
+      "type": "package",
+      "name": "axios",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:bootstrap",
+      "type": "package",
+      "name": "bootstrap",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:nuxt",
+      "type": "package",
+      "name": "nuxt",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:pinia",
+      "type": "package",
+      "name": "pinia",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite-plugin-eslint",
+      "type": "package",
+      "name": "vite-plugin-eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue",
+      "type": "package",
+      "name": "vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-router",
+      "type": "package",
+      "name": "vue-router",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@nuxtjs/eslint-module",
+      "type": "package",
+      "name": "@nuxtjs/eslint-module",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:autoprefixer",
+      "type": "package",
+      "name": "autoprefixer",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint",
+      "type": "package",
+      "name": "eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-config-prettier",
+      "type": "package",
+      "name": "eslint-config-prettier",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-unused-imports",
+      "type": "package",
+      "name": "eslint-plugin-unused-imports",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-vue",
+      "type": "package",
+      "name": "eslint-plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:postcss",
+      "type": "package",
+      "name": "postcss",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:prettier",
+      "type": "package",
+      "name": "prettier",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:.github/workflows/codeql.yml",
+      "relation": "contains",
+      "evidence": {
+        "path": ".github/workflows/codeql.yml"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:app.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "app.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/Info/CardProject.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/Info/CardProject.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/Info/ContactInfo.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/Info/ContactInfo.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/Info/Education.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/Info/Education.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/Info/WorkExperience.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/Info/WorkExperience.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/github/RepositoryCard.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/github/RepositoryCard.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/github/RepositoryList.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/github/RepositoryList.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/github/api/github.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/github/api/github.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/main/Home.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/main/Home.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/main/Navbar.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/main/Navbar.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/skill/SkillProgress.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/skill/SkillProgress.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:components/skill/Skills.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "components/skill/Skills.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:nuxt.config.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "nuxt.config.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:nuxt.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "nuxt.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:pages/index.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "pages/index.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:plugins/bootstrap.client.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "plugins/bootstrap.client.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:plugins/yandex-metrika.client.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "plugins/yandex-metrika.client.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:postcss.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "postcss.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:store/posts.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "store/posts.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:structure.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "structure.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:types/comment.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "types/comment.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:types/index.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "types/index.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio",
+      "target": "project:portfolio/file:types/post.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "types/post.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:portfolio/file:types/index.ts",
+      "target": "project:portfolio/file:types/comment.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "types/index.ts",
+        "line": 2
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:portfolio/file:types/index.ts",
+      "target": "project:portfolio/file:types/post.ts",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "types/index.ts",
+        "line": 3
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:portfolio/file:components/github/RepositoryList.vue",
+      "target": "project:portfolio/file:components/github/RepositoryCard.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "components/github/RepositoryList.vue",
+        "line": 20
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:portfolio/file:components/main/Home.vue",
+      "target": "project:portfolio/file:components/main/Navbar.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "components/main/Home.vue",
+        "line": 25
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:@jamescoyle/vue-icon",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 13
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:@mdi/js",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 14
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:@popperjs/core",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 15
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:axios",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:bootstrap",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 17
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:nuxt",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 18
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:pinia",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 19
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:vite-plugin-eslint",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 20
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:vue",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 21
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:vue-router",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 22
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:@nuxtjs/eslint-module",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:autoprefixer",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 26
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 27
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:eslint-config-prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 28
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:eslint-plugin-unused-imports",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 29
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:eslint-plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 30
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:postcss",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 31
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:portfolio/file:package.json",
+      "target": "package:npm:prettier",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 32
+      },
+      "method": "manifest"
+    }
+  ]
+}
